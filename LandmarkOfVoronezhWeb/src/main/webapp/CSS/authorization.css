@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+::placeholder {
+    font-size: 20px;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.input-group {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+input[type="text"], input[type="username"] {
+    font-size: 20px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #c0c0c0;
+    border-radius: 4px;
+}
+
+input[type="text"], input[type="password"] {
+    font-size: 20px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #c0c0c0;
+    border-radius: 4px;
+}
+
+.button--input {
+    font-size: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button--input--delete {
+    font-size: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: #d11f36;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button--input:hover {
+    background-color: #45a049;
+}
+
+.button--input--delete:hover {
+    background-color: #c12237;
+}
+
+.link--registerAndLogin {
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.div--errorMessage{
+    text-align: center;
+    font-size: 20px;
+    width: 400px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #d11f36;
+}
